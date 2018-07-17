@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-brown.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    //load the parts of the page that are always the same across the portal
+    $("#footerContent").load("footer.html");
+});
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118863115-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118863115-2');
+</script>
+
+<style>
+.selected{
+background-color:#8c6868 ;
+}
+</style>
+
+<body>
+
+<header class="w3-container w3-theme w3-padding w3-center" id="topMenu">
+<div class="w3-container">
+    <div class="w3-quarter w3-container w3-padding-8">
+
+    </div>
+    <div class="w3-half w3-container">
+        <h2>Data Science for All</h2>
+    </div>
+</div>
+
+<div class="w3-center">
+    <div class="w3-bar w3-theme">
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-8  selected">Home</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-padding-8">About</a>
+      <a href="resources.html" class="w3-bar-item w3-button w3-padding-8">Resources</a>
+      <a href="other.html" class="w3-bar-item w3-button w3-padding-8">Other</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-padding-8">Contact</a>
+    </div>
+</div>
+</header>
+
+<div class="w3-content w3-justify">
+<p>Contact</p>
+<div>
+<p>
+Yolanda Gil
+<br>
+<a href="mailto:gil@isi.edu">gil@isi.edu</a>
+<p>
+</div>
+
+<br/>
+
+<!-- Footer (defined in footer.html)-->
+<footer class="w3-container w3-theme-dark w3-padding-16" style="box-shadow:0 50vh 0 50vh #3D2B24;" id ="footerContent">
+</footer>
+
+</body>
+</html>
